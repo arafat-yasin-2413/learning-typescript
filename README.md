@@ -12,3 +12,18 @@ Step 1 : Install TypeScript Globally
 Step 2 : Now we need to configure typescript (tsconfig.js)
     command : tsc --init 
     it will create a tsconfig.js file
+
+
+    in the tsconfig file : 
+    We have 2 module system (esm module, commonjs)
+    এখানে বাই ডিফল্ট "nodenext" থাকে । যাতে করে আমরা ২ টা মডিউলার সিস্টেম ই ব্যবহার করতে পারি। 
+
+    target হিসেবে আমরা latest "esnext" ব্যবহার করতেছি।
+
+    ** Now we should uncomment "rootDir" & outDir
+    ekhane bole rakha valo: 
+    "src" folder a amra ts file gula rakhbo. 
+
+    ar js file gula src er baire rakhbo. eikhane "dist" er moddhe thakbe
+
+    ** ekhon "tsc" command dile dist naam a ekta folder toiri hobe. 
