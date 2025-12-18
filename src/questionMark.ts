@@ -15,6 +15,7 @@ const eligibleVoter = (age: number) => {
 // eligibleVoter(4);
 
 
+// 2. nullish coalescing operator
 
 // const userTheme = undefined;
 // const userTheme = null;
@@ -25,3 +26,23 @@ const userTheme = "Green Theme";
 const selectedTheme = userTheme ?? 'Light';
 
 console.log(selectedTheme);
+
+
+// 3. optional chaining
+
+const user : {
+    address : {
+        city: string;
+        town: string;
+        postalCode?: number;
+
+    }
+} = {
+    address: {
+        city: "Dhaka",
+        town: "Gulshan",
+    }
+}
+
+
+console.log(user);
