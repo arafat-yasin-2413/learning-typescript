@@ -20,3 +20,4 @@ let nameAndRoll : [string, number] =["Mezba", 79];
 
 let journey : [string, string, number] = ["Dhaka", "Chattogram", 7]
 
+
