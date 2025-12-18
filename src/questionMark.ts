@@ -1,5 +1,5 @@
 // ? : ternary
-// ?? : nullish coalescing
+// ?? : nullish coalescing (null / undefined)
 // ?. optional chaining
 
 
@@ -12,4 +12,16 @@ const eligibleVoter = (age: number) => {
 }
 
 
-eligibleVoter(4);
+// eligibleVoter(4);
+
+
+
+// const userTheme = undefined;
+// const userTheme = null;
+// const userTheme = "";
+const userTheme = "Green Theme";
+// empty string dileo nullish coalescing operator kaj korbe na. 
+// Karon, eta shudhu matro (null / undefined) er jonnoi kaj kore. 
+const selectedTheme = userTheme ?? 'Light';
+
+console.log(selectedTheme);
