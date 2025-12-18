@@ -34,3 +34,15 @@ const discountCalculator = (input: unknown ) =>{
 discountCalculator(100);
 discountCalculator('100 taka');
 discountCalculator(null);
+
+
+
+
+
+// void
+
+const throwError = (message: string) : never =>{
+    throw new Error(message)
+} 
+
+throwError('Error');
