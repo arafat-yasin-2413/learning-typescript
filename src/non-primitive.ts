@@ -21,3 +21,20 @@ let nameAndRoll : [string, number] =["Mezba", 79];
 let journey : [string, string, number] = ["Dhaka", "Chattogram", 7]
 
 
+const user : {
+    readonly organization: string;
+    firstName: string;
+    middleName?: string; // optional type
+    lastName: string;
+} = {
+    organization: "Programming Hero",
+    firstName: "Mezbaul",
+    middleName: "Abedin",
+    lastName: "Forhan"
+}
+
+// user.organization = "Interactive Cares";
+console.log(user);
+
+// define korar somoy kono field missing rakha jabe na
+// Literal type : Jokhon value nijei type hishebe boshe
