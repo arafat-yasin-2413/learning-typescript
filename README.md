@@ -27,3 +27,16 @@ Step 2 : Now we need to configure typescript (tsconfig.js)
     ar js file gula src er baire rakhbo. eikhane "dist" er moddhe thakbe
 
     ** ekhon "tsc" command dile dist naam a ekta folder toiri hobe. 
+
+
+
+TypeScript Basic : 
+
+i) primitive : string, number, boolean
+ii) non-primitive : array, object
+    Non-primitive টাইপ গুলোকে Reference type ও বলা হয়।
+
+
+** Optional type : using a "?"
+** Literal type : Jokhon value nijei type hishebe boshe
+** readonly type
